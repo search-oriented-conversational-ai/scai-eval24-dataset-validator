@@ -1,0 +1,20 @@
+{
+  "name": "@webis-de/scai-eval24-dataset-validator",
+  "version": "1.0.0",
+  "description": "Validator for dataset submissions to the SCAI Eval 2024 task",
+  "main": "lib/scai-eval24-dataset-validator.js",
+  "files": [ "bin", "lib" ],
+  "bin": {
+    "scai-eval24-dataset-validator": "bin/scai-eval24-dataset-validator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/search-oriented-conversational-ai/scai-eval24-dataset-validator.git"
+  },
+  "author": "Johannes Kiesel <johannes.kiesel@uni-weimar.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/search-oriented-conversational-ai/scai-eval24-dataset-validator/issues"
+  },
+  "homepage": "https://github.com/search-oriented-conversational-ai/scai-eval24-dataset-validator#readme"
+}
