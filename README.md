@@ -14,7 +14,7 @@ docker run --rm -it -v </path/to/directory/with/dataset>:/data webis/scai-eval24
 ## TIRA Usage
 Command in TIRA:
 ```bash
-node /app/bin/scai-eval24-dataset-validator $inputRun/* $outputDir/validation.prototext
+node /app/bin/scai-eval24-dataset-validator $inputRun/* $outputDir/evaluation.prototext
 ```
 
 Update:
