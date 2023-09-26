@@ -1,2 +1,3 @@
 lib/scai-eval24-dataset-validator.js
+lib/scai-eval24-dataset-format.json
 data/example-validation.txt

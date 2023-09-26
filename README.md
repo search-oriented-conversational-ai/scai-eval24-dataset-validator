@@ -2,7 +2,7 @@
 
 This repository contains code for validating datasets submitted to SCAI Eval 2024.
 
-The main file, `lib/scai-eval24-dataset-validator.js`, is fetched from the online validator when calling [build.sh](bin/build.sh).
+The files `lib/scai-eval24-dataset-validator.js` and `lib/scai-eval24-dataset-format.json` are fetched from the online validator when calling [build.sh](bin/build.sh).
 
 ## TIRA Usage
 Command in TIRA:
