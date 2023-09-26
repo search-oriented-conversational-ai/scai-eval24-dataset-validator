@@ -4,6 +4,13 @@ This repository contains code for validating datasets submitted to SCAI Eval 202
 
 The files `lib/scai-eval24-dataset-validator.js` and `lib/scai-eval24-dataset-format.json` are fetched from the online validator when calling [build.sh](bin/build.sh).
 
+## Local Usage
+```bash
+./bin/build.sh
+version=$(jq -r '.version' package.json)
+docker run --rm -it -v </path/to/directory/with/dataset>:/data webis/scai-eval24-dataset-validator:$version /data/<dataset-file-name> /dev/zero
+```
+
 ## TIRA Usage
 Command in TIRA:
 ```bash
