@@ -1,6 +1,6 @@
 {
   "name": "@webis-de/scai-eval24-dataset-validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Validator for dataset submissions to the SCAI Eval 2024 task",
   "main": "lib/scai-eval24-dataset-validator.js",
   "files": [ "bin", "lib" ],

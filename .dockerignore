@@ -1,4 +1,7 @@
 LICENSE
 README.md
 data/
+bin/build.sh
+bin/publish.sh
 .git/
+.gitignore

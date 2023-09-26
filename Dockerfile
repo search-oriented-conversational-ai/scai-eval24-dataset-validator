@@ -4,4 +4,4 @@ COPY . /app
 WORKDIR /app
 RUN npm install
 
-ENTRYPOINT [ "npm", "exec", "scai-eval24-dataset-validator" ]
+ENTRYPOINT [ "node", "bin/scai-eval24-dataset-validator" ]
